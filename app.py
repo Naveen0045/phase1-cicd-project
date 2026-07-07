@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Version 3 - CI/CD Working successfully"
+    return "PHASE-2 ECS FARGATE SUCCESS"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
