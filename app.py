@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from GitLab CI/CD on AWS EC2"
+    return "Version 3 - CI/CD Working successfully"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
